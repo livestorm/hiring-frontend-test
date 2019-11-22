@@ -27,7 +27,7 @@ Respecter le plus fidèlement possible le design des screens.
 Stack obligatoire :
 - Vue.js
 - GraphQL avec Apollo
-- Le package "apollo-datasource-rest" qui permet de connecter Apollo avec l'API de Product Hunt
+- Le package "apollo-datasource-rest" qui permet de connecter Apollo avec l'API de ProductHunt
 
 Pour intégrer Apollo à Vue.js, il est conseillé d'utiliser le package "vue-apollo" https://vue-apollo.netlify.com/guide/
 
