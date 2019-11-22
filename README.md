@@ -35,13 +35,14 @@ Le rendu final doit comporter 2 dossiers : un dossier "client" qui contient tout
 
 Ne pas hésiter à utiliser Vue CLI pour la mise en place de l'architecture client.
 
-Ne pas hésiter à mettre en place des outils comme vuex ou vue-router afin de démontrer que vous avez une bonne connaissance du framework et des bonnes pratiques, même si ils ne sont pas forcément nécessaires pour ce petit projet.
+Ne pas hésiter à mettre en place des outils comme vuex ou vue-router afin de démontrer que vous avez une bonne connaissance du framework et des bonnes pratiques, même si ils ne sont pas forcément nécessaires pour ce petit projet. Côté CSS, l'utilisation d'un préprocesseur ou d'un framework tel que Tailwind CSS est recommandé.
 
 
 ### Ressources
 
-Pour utiliser l'API ProductHunt, il faut avoir un compte sur ProductHunt.
-Pour avoir un token, il faut créer une application sur ProductHunt (voir ressource 1). 
+Pour utiliser l'API ProductHunt, il faut avoir un compte sur ProductHunt. 
+Pour ce test, il est demandé d'utiliser l'API V1, et non la V2.
+Pour accéder aux données de l'API il suffit de générer un token en créant une application sur ProductHunt (voir ressource 1). 
 
 - (1) https://api.producthunt.com/v1/oauth/applications
 - (2) https://api.producthunt.com/v1/docs/oauth_client_only_authentication/oauth_test_use_the_client_level_token_for_read_api_access
