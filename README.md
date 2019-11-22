@@ -40,8 +40,10 @@ Ne pas hésiter à mettre en place des outils comme vuex ou vue-router afin de d
 
 ### Ressources
 
-Pour utiliser l'API ProductHunt, il faut avoir un compte sur ProductHunt. 
+Pour utiliser l'API ProductHunt, il faut avoir un compte sur ProductHunt.
+
 Pour ce test, il est demandé d'utiliser l'API V1, et non la V2.
+
 Pour accéder aux données de l'API il suffit de générer un token en créant une application sur ProductHunt (voir ressource 1). 
 
 - (1) https://api.producthunt.com/v1/oauth/applications
