@@ -16,10 +16,10 @@ Au dessus des statistiques, un select permet de choisir une journée parmi les 3
 
 Résultat attendu en images : screen1.jpg + screen2.jpg.
 
+Important : **Respecter le plus fidèlement possible le design des screens**.
+
 Résultat attendu en vidéo (le select n'est pas visible sur l'enregistrement, voir screen2.jpg) :
 https://www.useloom.com/share/3f1ba556240e40f2be18ebd5aacb788d
-
-Respecter le plus fidèlement possible le design des screens.
 
 
 ### Contraintes techniques
