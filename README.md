@@ -42,11 +42,10 @@ Ne pas hésiter à mettre en place des outils comme vuex ou vue-router afin de d
 
 Pour utiliser l'API ProductHunt, il faut avoir un compte sur ProductHunt.
 
-Pour ce test, il est demandé d'utiliser l'API V1, et non la V2.
+Pour ce test, il est demandé d'utiliser l'API V2.
 
 Pour accéder aux données de l'API il suffit de générer un token en créant une application sur ProductHunt (voir ressource 1). 
 
-- (1) https://api.producthunt.com/v1/oauth/applications
-- (2) https://api.producthunt.com/v1/docs/oauth_client_only_authentication/oauth_test_use_the_client_level_token_for_read_api_access
-- (3) https://api.producthunt.com/v1/docs/posts/posts_index_get_the_tech_posts_of_today
-- (4) https://api.producthunt.com/v1/docs/posts/posts_index_request_previous_day_with_%60days_ago%60_parameter_(tech_category)
+- (1) https://api.producthunt.com/v2/oauth/applications
+- (2) https://api.producthunt.com/v2/docs/oauth_user_authentication/oauth_token_use_the_access_grant_code_you_received_through_the_redirect_to_request_an_access_token
+- (3) https://ph-graph-api-explorer.herokuapp.com/
