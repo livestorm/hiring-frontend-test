@@ -27,7 +27,6 @@ https://www.useloom.com/share/3f1ba556240e40f2be18ebd5aacb788d
 Stack obligatoire :
 - Vue.js
 - GraphQL avec Apollo
-- Le package "apollo-datasource-rest" qui permet de connecter Apollo avec l'API de ProductHunt
 
 Pour intégrer Apollo à Vue.js, il est conseillé d'utiliser le package "vue-apollo" https://vue-apollo.netlify.com/guide/
 
