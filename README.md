@@ -9,7 +9,7 @@ Réaliser une petite application Vue.js qui affichera sous forme de liste les po
 
 Au dessus de la liste, des statistiques de la journée sont affichées : nombre de posts, votes, commentaires, et makers.
 
-Au dessus des statistiques, un select permet de choisir une journée parmi les 30 jours précédents (voir ressource 4).
+Au dessus des statistiques, un select permet de choisir une journée parmi les 30 jours précédents.
 
 
 ### Résultat attendu
