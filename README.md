@@ -30,8 +30,6 @@ Stack obligatoire :
 
 Pour intégrer Apollo à Vue.js, il est conseillé d'utiliser le package "vue-apollo" https://vue-apollo.netlify.com/guide/
 
-Le rendu final doit comporter 2 dossiers : un dossier "client" qui contient toute l'application Vue.js, et un dossier "server" qui contient toute la gestion des données avec Apollo.
-
 Ne pas hésiter à utiliser Vue CLI pour la mise en place de l'architecture client.
 
 Ne pas hésiter à mettre en place des outils comme vuex ou vue-router afin de démontrer que vous avez une bonne connaissance du framework et des bonnes pratiques, même si ils ne sont pas forcément nécessaires pour ce petit projet. Côté CSS, l'utilisation d'un préprocesseur ou d'un framework tel que Tailwind CSS est recommandé.
