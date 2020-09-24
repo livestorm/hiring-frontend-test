@@ -1,48 +1,83 @@
-### Rendu
+# Livestorm Frontend Hiring Test
 
-Lien GitHub ou dans un zip en fichier joint dans l'email, peu importe.
+This test is part of our hiring process for Vue/GraphQL developers. [Apply now]()
 
+Be sure to read all of the instructions carefully and follow the guidelines below. This test should take you between 3 and 6 hours depending on your experience.
 
-### Objectif
+## Context
 
-Réaliser une petite application Vue.js qui affichera sous forme de liste les posts ProductHunt pour un jour sélectionné.
+You just finished your first webinar with Livestorm! A lot of attendees watched the event: you need a tool to help you manage their profile and find potential prospects for your business.
 
-Au dessus de la liste, des statistiques de la journée sont affichées : nombre de posts, votes, commentaires, et makers.
+The goal of this test is to code a small responsive Vue.js app that allows to:
 
-Au dessus des statistiques, un select permet de choisir une journée parmi les 30 jours précédents.
+- List attendees
+- Filter attendees with two segments (see below)
+- Display a detailed view of one attendee
+- Invite someone (add a new attendee)
 
+### Segments
 
-### Résultat attendu
+The attendees list can be filtered in 3 different segments:
 
-Résultat attendu en images : screen1.jpg + screen2.jpg.
+- `All attendees` segment: show all attendees
+- `Potential prospects` segment: display only attendees with more than 50% attendance rate
+- `From Japan` segment: display only attendees from Japan
 
-Important : **Respecter le plus fidèlement possible le design des screens**.
+## API
 
-Résultat attendu en vidéo (le select n'est pas visible sur l'enregistrement, voir screen2.jpg) :
-https://www.useloom.com/share/3f1ba556240e40f2be18ebd5aacb788d
+To build this application, you'll need to connect to our GraphQL API located [here](https://livestorm-front-hiring-test.herokuapp.com/).
 
+In you code you can use this endpoint URL:
 
-### Contraintes techniques
+```
+https://livestorm-front-hiring-test.herokuapp.com/
+```
 
-Stack obligatoire :
-- Vue.js
-- GraphQL avec Apollo
+The API is self-documented in its [playground](https://livestorm-front-hiring-test.herokuapp.com/) where you can also try it out before coding.
 
-Pour intégrer Apollo à Vue.js, il est conseillé d'utiliser le package "vue-apollo" https://vue-apollo.netlify.com/guide/
+## What you need to do
 
-Ne pas hésiter à utiliser Vue CLI pour la mise en place de l'architecture client.
+To complete the test, you'll need to:
 
-Ne pas hésiter à mettre en place des outils comme vuex ou vue-router afin de démontrer que vous avez une bonne connaissance du framework et des bonnes pratiques, même si ils ne sont pas forcément nécessaires pour ce petit projet. Côté CSS, l'utilisation d'un préprocesseur ou d'un framework tel que Tailwind CSS est recommandé.
+- Create the Vue CLI project from scratch
+- Write the application
+- Make is look like the screenshots and figma files as much as possible
+- Write unit tests for your components
+- (Bonus) Write some E2E tests
 
+## Tech requirements
 
-### Ressources
+A few technologies/libraries must be used to build the app:
 
-Pour utiliser l'API ProductHunt, il faut avoir un compte sur ProductHunt.
+- Vue.js 2
+- Vue CLI 3
+- GraphQL
+- Apollo Client (setup manually)
+- vue-apollo
+- vue-router
+- vuex
+- Tailwind CSS
+- Chat.js (use directly)
+- ESLint
 
-Pour ce test, il est demandé d'utiliser l'API V1 ou V2, peu importe.
+The goal is to show that you have a good knowledge and understand well the Vue framework with important libraries like vue-router and vuex, even if it's a small app. We also chose a tech stack close to what you'll will be working on at Livestorm.
 
-Pour accéder aux données de l'API il suffit de générer un token en créant une application sur ProductHunt (voir ressource 1). 
+Do not use:
 
-- (1) https://api.producthunt.com/v2/oauth/applications
-- (2) https://api.producthunt.com/v2/docs/oauth_user_authentication/oauth_token_use_the_access_grant_code_you_received_through_the_redirect_to_request_an_access_token
-- (3) https://ph-graph-api-explorer.herokuapp.com/
+- A Vue CLI plugin to setup Apollo Client.
+- A wrapper library around Chart.js, you must integrate it yourself.
+
+## How to send your app code
+
+When you feel you are done, send us a link to a GitHub repository or zip your project by email!
+
+## Tips
+
+- **Being as close as possible to the screenshots is very important.**
+- The app must be responsive! It should look good and work on both mobile and desktop screens!
+- You shouldn't have to customize Tailwind, the default configuration is enough to be able to match the screenshots.
+- Use vuex to handle the currently selected segment, the rest of the app can be handled directly with Apollo.
+- If possible, adding a new attendee should update the Apollo cache directly instead of making the list fetch data again.
+- Show off your Vue and GraphQL skills! Don't hesitate to use more advanced Vue, vue-router or Apollo client features and good practices.
+- You can use [vue-feather-icons](https://github.com/egoist/vue-feather-icons) for the icons.
+- Got questions? Contact us! (No penalties for asking questions 😉️)
