@@ -51,7 +51,7 @@ To complete the test, you'll need to:
 
 ## Tech requirements
 
-A few technologies/libraries must be used to build the app:
+A few technologies/libraries **must be used** to build the app:
 
 - Vue.js 2
 - Vue CLI 3
@@ -60,9 +60,9 @@ A few technologies/libraries must be used to build the app:
 - vue-apollo
 - vue-router
 - vuex
-- Tailwind CSS
-- Chart.js (use directly)
-- vue-feather-icons (for icons)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Chart.js](https://www.chartjs.org/) (use directly)
+- [vue-feather-icons](https://github.com/egoist/vue-feather-icons) (for icons)
 - ESLint
 
 The goal is to show that you have a good knowledge and understand well the Vue framework with important libraries like vue-router and vuex, even if it's a small app. We also chose a tech stack close to what you'll will be working on at Livestorm.
@@ -84,7 +84,6 @@ When you feel you are done, send us by email:
 - **Being as close as possible to the screenshots is very important.**
 - The app must be responsive! It should look good and work on both mobile and desktop screens!
 - You shouldn't have to customize Tailwind, the default configuration is enough to be able to match the screenshots.
-- Use [vue-feather-icons](https://github.com/egoist/vue-feather-icons) for the icons.
 - Use vuex to handle the currently selected segment, the rest of the app can be handled directly with Apollo.
 - If possible, adding a new attendee should update the Apollo cache directly instead of making the list fetch data again.
 - Show off your Vue and GraphQL skills! Don't hesitate to use more advanced Vue, vue-router or Apollo client features and good practices.
