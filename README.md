@@ -1,4 +1,6 @@
-![Livestorm Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Logo-livestorm.svg/320px-Logo-livestorm.svg.png "Livestorm Logo")
+<p align="center">
+  <img width="400" height="200" src="https://upload.wikimedia.org/wikipedia/commons/c/c6/Logo-livestorm.svg">
+</p>
 
 # Livestorm Frontend Hiring Test
 
