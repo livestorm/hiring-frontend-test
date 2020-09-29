@@ -24,7 +24,7 @@ The goal of this test is to code a small responsive Vue.js app that allows to:
 The attendees list can be filtered in 3 different segments:
 
 - `All attendees` segment: show all attendees
-- `Potential prospects` segment: display only attendees with more than 50% attendance rate
+- `Potential prospects` segment: display only attendees with more than 50% attendance rate (a trending up icon is displayed next to the attendees name which checks this condition)
 - `From Japan` segment: display only attendees from Japan
 
 ## API
@@ -62,6 +62,7 @@ A few technologies/libraries must be used to build the app:
 - vuex
 - Tailwind CSS
 - Chart.js (use directly)
+- vue-feather-icons (for icons)
 - ESLint
 
 The goal is to show that you have a good knowledge and understand well the Vue framework with important libraries like vue-router and vuex, even if it's a small app. We also chose a tech stack close to what you'll will be working on at Livestorm.
@@ -83,10 +84,10 @@ When you feel you are done, send us by email:
 - **Being as close as possible to the screenshots is very important.**
 - The app must be responsive! It should look good and work on both mobile and desktop screens!
 - You shouldn't have to customize Tailwind, the default configuration is enough to be able to match the screenshots.
+- Use [vue-feather-icons](https://github.com/egoist/vue-feather-icons) for the icons.
 - Use vuex to handle the currently selected segment, the rest of the app can be handled directly with Apollo.
 - If possible, adding a new attendee should update the Apollo cache directly instead of making the list fetch data again.
 - Show off your Vue and GraphQL skills! Don't hesitate to use more advanced Vue, vue-router or Apollo client features and good practices.
-- You can use [vue-feather-icons](https://github.com/egoist/vue-feather-icons) for the icons.
 - (Bonus) Write clear README on how the app was designed and how to run the code
 - (Bonus) Describe optimization opportunities
 - Got questions? Contact us! (No penalties for asking questions 😉️)
