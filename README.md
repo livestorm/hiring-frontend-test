@@ -68,8 +68,9 @@ The goal is to show that you have a good knowledge and understand well the Vue f
 
 Do not use:
 
-- A Vue CLI plugin to setup Apollo Client.
-- A wrapper library around Chart.js, you must integrate it yourself.
+- A UI library
+- A Vue CLI plugin to setup Apollo Client
+- A wrapper library around Chart.js, you must integrate it yourself
 
 ## How to send your app code
 
