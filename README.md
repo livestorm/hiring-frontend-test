@@ -1,3 +1,5 @@
+![Livestorm Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Logo-livestorm.svg/320px-Logo-livestorm.svg.png "Livestorm Logo")
+
 # Livestorm Frontend Hiring Test
 
 This test is part of our hiring process for Vue/GraphQL developers. [Apply now]()
@@ -57,7 +59,7 @@ A few technologies/libraries must be used to build the app:
 - vue-router
 - vuex
 - Tailwind CSS
-- Chat.js (use directly)
+- Chart.js (use directly)
 - ESLint
 
 The goal is to show that you have a good knowledge and understand well the Vue framework with important libraries like vue-router and vuex, even if it's a small app. We also chose a tech stack close to what you'll will be working on at Livestorm.
