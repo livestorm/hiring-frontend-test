@@ -73,7 +73,9 @@ Do not use:
 
 ## How to send your app code
 
-When you feel you are done, send us a link to a GitHub repository or zip your project by email!
+When you feel you are done, send us by email: 
+- A link to a GitHub repository
+- An online demo of the application (free version of Netlify is highly recommended 😉️)
 
 ## Tips
 
@@ -84,4 +86,6 @@ When you feel you are done, send us a link to a GitHub repository or zip your pr
 - If possible, adding a new attendee should update the Apollo cache directly instead of making the list fetch data again.
 - Show off your Vue and GraphQL skills! Don't hesitate to use more advanced Vue, vue-router or Apollo client features and good practices.
 - You can use [vue-feather-icons](https://github.com/egoist/vue-feather-icons) for the icons.
+- (Bonus) Write clear README on how the app was designed and how to run the code
+- (Bonus) Describe optimization opportunities
 - Got questions? Contact us! (No penalties for asking questions 😉️)
