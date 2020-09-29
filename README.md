@@ -67,7 +67,7 @@ A few technologies/libraries **must be used** to build the app:
 
 The goal is to show that you have a good knowledge and understand well the Vue framework with important libraries like vue-router and vuex, even if it's a small app. We also chose a tech stack close to what you'll will be working on at Livestorm.
 
-Do not use:
+**Do not use**:
 
 - A UI library
 - A Vue CLI plugin to setup Apollo Client
