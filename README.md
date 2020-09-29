@@ -1,5 +1,5 @@
-<p align="center">
-  <img width="400" height="200" src="https://upload.wikimedia.org/wikipedia/commons/c/c6/Logo-livestorm.svg">
+<p>
+  <img width="400" height="120" src="https://upload.wikimedia.org/wikipedia/commons/c/c6/Logo-livestorm.svg">
 </p>
 
 # Livestorm Frontend Hiring Test
