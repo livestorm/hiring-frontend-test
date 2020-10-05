@@ -19,8 +19,6 @@ The goal of this test is to code a small responsive Vue.js app that allows to:
 - Display a detailed view of one attendee
 - Invite someone (add a new attendee)
 
-![livestorm-frontend-test](https://user-images.githubusercontent.com/961898/95062605-8010a880-06fd-11eb-86d3-829b9e2eb9f1.png)
-
 ### Segments
 
 The attendees list can be filtered in 3 different segments:
@@ -28,6 +26,16 @@ The attendees list can be filtered in 3 different segments:
 - `All attendees` segment: show all attendees
 - `Potential prospects` segment: display only attendees with more than 50% attendance rate (a trending up icon is displayed next to the attendees name which checks this condition)
 - `From Japan` segment: display only attendees from Japan
+
+## Design
+
+All screens are available in the [Figma source file](https://www.figma.com/).
+> Important: If you haven't already, sign up for a free Figma account and sign in, so you can work with the design.
+
+A prototype is also available in the [Figma prototype](https://www.figma.com/).
+
+![livestorm-frontend-test](https://user-images.githubusercontent.com/961898/95062605-8010a880-06fd-11eb-86d3-829b9e2eb9f1.png)
+
 
 ## API
 
@@ -83,7 +91,7 @@ When you feel you are done, send us by email:
 
 ## Tips
 
-- **Being as close as possible to the screenshots is very important.**
+- **Being as close as possible to the Figma screens is very important.**
 - The app must be responsive! It should look good and work on both mobile and desktop screens!
 - You shouldn't have to customize Tailwind, the default configuration is enough to be able to match the screenshots.
 - Use vuex to handle the currently selected segment, the rest of the app can be handled directly with Apollo.
