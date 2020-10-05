@@ -2,11 +2,11 @@
   <img width="400" height="140" src="https://upload.wikimedia.org/wikipedia/commons/c/c6/Logo-livestorm.svg">
 </p>
 
-# Livestorm Frontend Hiring Test
+# Livestorm Front-End Hiring Test
 
 This test is part of our hiring process for Vue/GraphQL developers. [Apply now](https://jobs.livestorm.co/)
 
-Be sure to read all of the instructions carefully and follow the guidelines below. This test should take you between 3 and 6 hours depending on your experience.
+Be sure to read all of the instructions carefully and follow the guidelines below. This test should take you between 4 and 8 hours depending on your experience.
 
 ## Context
 
