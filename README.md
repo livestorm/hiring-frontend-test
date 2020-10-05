@@ -87,8 +87,8 @@ The goal is to show that you have a good knowledge and understand well the Vue f
 ## How to send your app code
 
 When you feel you are done, send us by email: 
-- A link to a GitHub repository
-- An online demo of the application (free version of Netlify is highly recommended 😉️)
+- A link to a **private GitHub repository** with an invite access for [@VincentGarreau](https://github.com/VincentGarreau)
+- An **online demo** of the application (free version of Netlify is highly recommended 😉️)
 
 ## Tips
 
