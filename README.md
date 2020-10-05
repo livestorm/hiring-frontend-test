@@ -30,9 +30,8 @@ The attendees list can be filtered in 3 different segments:
 ## Design
 
 All screens are available in the [Figma source file](https://www.figma.com/).
-> Important: If you haven't already, sign up for a free Figma account and sign in, so you can work with the design.
-
 A prototype is also available in the [Figma prototype](https://www.figma.com/).
+> Important: If you haven't already, sign up for a free Figma account and sign in, so you can work with the design.
 
 ![livestorm-frontend-test](https://user-images.githubusercontent.com/961898/95062605-8010a880-06fd-11eb-86d3-829b9e2eb9f1.png)
 
