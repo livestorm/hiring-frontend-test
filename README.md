@@ -19,6 +19,8 @@ The goal of this test is to code a small responsive Vue.js app that allows to:
 - Display a detailed view of one attendee
 - Invite someone (add a new attendee)
 
+![livestorm-frontend-test](https://user-images.githubusercontent.com/961898/95062605-8010a880-06fd-11eb-86d3-829b9e2eb9f1.png)
+
 ### Segments
 
 The attendees list can be filtered in 3 different segments:
