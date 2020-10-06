@@ -29,9 +29,7 @@ The attendees list can be filtered in 3 different segments:
 
 ## Design
 
-All screens are available in the [Figma source file](https://www.figma.com/).
-
-A prototype is also available in the [Figma prototype](https://www.figma.com/).
+All screens are available in the [Figma source file](https://www.figma.com/file/VRtAKaTOEoobKmAKVWFp2P/Figma-front-end-test?node-id=1%3A42).
 
 **Important: If you haven't already, sign up for a free Figma account and sign in, so you can inspect the design.**
 
