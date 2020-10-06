@@ -52,11 +52,11 @@ The API is self-documented in its [playground](https://livestorm-front-hiring-te
 
 ## What you need to do
 
-To complete the test, you'll need to:
+To complete the test, **you'll need to**:
 
 - Create the Vue CLI project from scratch
 - Write the application
-- Make is look like the screenshots and figma files as much as possible
+- Being as close as possible to the Figma screens
 - Write unit tests for your components
 - (Bonus) Write some E2E tests
 
@@ -74,6 +74,7 @@ A few technologies/libraries **must be used** to build the app:
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Chart.js](https://www.chartjs.org/) (use directly)
 - [vue-feather-icons](https://github.com/egoist/vue-feather-icons) (for icons)
+- vue-test-utils
 - ESLint
 
 The goal is to show that you have a good knowledge and understand well the Vue framework with important libraries like vue-router and vuex, even if it's a small app. We also chose a tech stack close to what you'll will be working on at Livestorm.
