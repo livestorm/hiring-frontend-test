@@ -35,7 +35,7 @@ The Livestorm logo is attached in this repository.
 
 **Important: If you haven't already, sign up for a free Figma account and sign in, so you can inspect the design.**
 
-![livestorm-frontend-test](https://user-images.githubusercontent.com/961898/95189962-e3b6d680-07ce-11eb-9987-e6d9040f34f2.png)
+![livestorm-frontend-test](https://user-images.githubusercontent.com/961898/95204778-d60c4b80-07e4-11eb-818c-eb3a3516e289.png)
 
 
 ## API
