@@ -98,7 +98,7 @@ When you feel you are done, send us by email:
 - You shouldn't have to customize Tailwind, the default configuration is enough to be able to match the Figma screens.
 - Use vuex to handle the currently selected segment, the rest of the app can be handled directly with Apollo.
 - Use native select elements
-- Feel free to use Google Fonts
+- Feel free to use Google Fonts to import Inter font
 - If possible, adding a new attendee should update the Apollo cache directly instead of making the list fetch data again.
 - Show off your Vue and GraphQL skills! Don't hesitate to use more advanced Vue, vue-router or Apollo client features and good practices.
 - (Bonus) Write clear README on how the app was designed and how to run the code
