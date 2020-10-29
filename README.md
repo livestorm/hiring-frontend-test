@@ -57,7 +57,7 @@ To complete the test, **you'll need to**:
 - Create the Vue CLI project from scratch
 - Write the application
 - Being as close as possible to the Figma screens
-- Write unit tests for your components
+- Write some unit tests (at least one)
 - (Bonus) Write some E2E tests
 
 ## Tech requirements
