@@ -72,7 +72,6 @@ A few technologies/libraries **must be used** to build the app:
 - vue-router
 - vuex
 - [Tailwind CSS](https://tailwindcss.com/)
-- [Chart.js](https://www.chartjs.org/) (use directly)
 - [vue-feather-icons](https://github.com/egoist/vue-feather-icons) (for icons)
 - vue-test-utils
 - ESLint
@@ -83,7 +82,6 @@ The goal is to show that you have a good knowledge and understand well the Vue f
 
 - A UI library
 - A Vue CLI plugin to setup Apollo Client
-- A wrapper library around Chart.js, you must integrate it yourself
 
 ## How to send your app code
 
