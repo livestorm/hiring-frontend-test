@@ -65,7 +65,7 @@ To complete the test, **you'll need to**:
 A few technologies/libraries **must be used** to build the app:
 
 - Vue.js 2
-- Vue CLI 3
+- Vue CLI
 - GraphQL
 - Apollo Client (setup manually)
 - vue-apollo
