@@ -10,7 +10,7 @@ Be sure to read all of the instructions carefully and follow the guidelines belo
 
 ## Context
 
-You just finished your first webinar with Livestorm! A lot of attendees watched the event: you need a tool to help you manage their profile and find potential prospects for your business.
+You just finished your first event with Livestorm! A lot of attendees watched the event: you need a tool to help you manage their profile and find potential prospects for your business.
 
 The goal of this test is to code a small responsive Vue.js app that allows to:
 
@@ -54,29 +54,22 @@ The API is self-documented in its [playground](https://livestorm-front-hiring-te
 
 To complete the test, **you'll need to**:
 
-- Create the Vue CLI project from scratch
+- Create the Vue project from scratch
 - Write the application
 - Being as close as possible to the Figma screens
 - Write some unit tests (at least one)
-- (Bonus) Write some E2E tests
+- (Bonus) Write some integration tests or E2E tests
 
 ## Tech requirements
 
 A few technologies/libraries **must be used** to build the app:
 
-- Vue.js 2
-- Vue CLI
+- Vue.js
 - GraphQL
-- Apollo Client (setup manually)
-- vue-apollo
-- vue-router
-- vuex
 - [Tailwind CSS](https://tailwindcss.com/)
 - [vue-feather-icons](https://github.com/egoist/vue-feather-icons) (for icons)
-- vue-test-utils
-- ESLint
 
-The goal is to show that you have a good knowledge and understand well the Vue framework with important libraries like vue-router and vuex, even if it's a small app. We also chose a tech stack close to what you'll will be working on at Livestorm.
+The goal is to show that you have a good knowledge and understand well the Vue framework with important libraries, even if it's a small app. We also chose a tech stack close to what you'll will be working on at Livestorm.
 
 **Do not use**:
 
@@ -94,7 +87,6 @@ When you feel you are done, send us by email:
 - **Being as close as possible to the Figma screens is very important**
 - The app must be responsive! It should look good and work on both mobile and desktop screens!
 - You shouldn't have to customize Tailwind, the default configuration is enough to be able to match the Figma screens
-- Use vuex to handle the currently selected segment, the rest of the app can be handled directly with Apollo
 - Use native select elements
 - Feel free to use Google Fonts to import Inter font
 - If possible, adding a new attendee should update the Apollo cache directly instead of making the list fetch data again
