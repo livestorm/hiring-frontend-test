@@ -67,7 +67,7 @@ A few technologies/libraries **must be used** to build the app:
 - Vue.js
 - GraphQL
 - [Tailwind CSS](https://tailwindcss.com/)
-- [vue-feather-icons](https://github.com/egoist/vue-feather-icons) (for icons)
+- [vue-feather](https://github.com/fengyuanchen/vue-feather) (for icons)
 
 The goal is to show that you have a good knowledge and understand well the Vue framework with important libraries, even if it's a small app. We also chose a tech stack close to what you'll will be working on at Livestorm.
 
